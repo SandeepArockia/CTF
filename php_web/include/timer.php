@@ -15,7 +15,7 @@ if($_SESSION[$ses_stime_key]!=""){
     $cur_timestamp=date_create();
     $cur_timestamp=strtotime (date_format($cur_timestamp,"Y-m-d H:i:s"));
 
-    $end_timestamp=$start_timestamp+(4*60*60);
+    $end_timestamp=$start_timestamp+(3*60*60);
 
     $remain_timestamp=$end_timestamp-$cur_timestamp;
     $remain_secs=$remain_timestamp;

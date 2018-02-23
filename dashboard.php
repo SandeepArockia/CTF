@@ -235,7 +235,7 @@ if (isset($_GET['curqsn'])) {
 
                             <div class="row">
                             <span class="white-text" style="font-size: 20px; font-weight: 400; letter-spacing: 3px">
-                                Here, you will have 6 HOURS to answer a set of questions once you press the button below.<br/><br/> Remember that once you click on "START CAPTURING", the timer will keep running even when you are logged out.<br/><br/> Once you are ready, press the button below to start capturing.<br/>
+                                Here, you will have 3 HOURS to answer a set of questions once you press the button below.<br/><br/> Remember that once you click on "START CAPTURING", the timer will keep running even when you are logged out.<br/><br/> Once you are ready, press the button below to start capturing.<br/>
                             </span>
                             </div>
                             <input type="hidden" name="start_capturing" value="true">
